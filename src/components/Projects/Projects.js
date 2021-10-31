@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
+import asyncImg from "../../Assets/Projects/asyncArticle.png";
 import drumKitImg from "../../Assets/Projects/drumkit.jpg";
 import moviesImg from "../../Assets/Projects/movies.jpg";
 import notesImg from "../../Assets/Projects/notes.png";
@@ -111,6 +113,20 @@ const Projects = () => {
               title="Tweet It!"
               description="Chatting app made using React. Implements hosting, authentication and database using firebase."
               link="https://github.com/shrikitamir/tweetit"
+            />
+          </Col>
+        </Row>
+        <h1 className="project-heading">
+          My Recent <strong className="purple">Blog </strong> Posts
+        </h1>
+        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
+        <Row style={{ justifyContent: "center" }}>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={asyncImg}
+              link="https://dev.to/shrikitamir/asynchronous-javascript-explained-3o6g"
+              title="Asynchronous JavaScript Under The Hood"
+              site="dev.to"
             />
           </Col>
         </Row>
