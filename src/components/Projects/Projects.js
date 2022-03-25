@@ -20,10 +20,10 @@ const Projects = () => {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -117,7 +117,7 @@ const Projects = () => {
           </Col>
         </Row>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Blog </strong> Posts
+          My <strong className="purple">Blog </strong> Posts
         </h1>
         <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
         <Row style={{ justifyContent: "center" }}>

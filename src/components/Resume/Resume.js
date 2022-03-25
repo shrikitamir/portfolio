@@ -22,10 +22,19 @@ const Resume = () => {
               title="Full Stack Developer at Aura Smart Air"
               date="October 2021 - Current"
               content={[
-                "Worked on existing Angular projects, added features, fixed bugs and made improvements.",
-                "Developed new apps and tools from scratch.",
-                "Learnt new tools, worked on robust apps and became comfortable with independent working.",
-                "Worked in a team, made sprints and participated in meetings.",
+                "Worked on existing backend using Microservices architecture.",
+                "Worked with Cloud Services - Cloud Functions, Cloud SQL, Big Table, bigQuery, Tasks Queues and Schedulers.",
+                "Took architectural decisions and implemented them.",
+                "Created our backend documentation and changed our Cloud Functions to be written in TypeScript.",
+                "Worked with wide variety of API's, tools and software (IoT).",
+                "Learnt new framework, Developed new tools and landing pages from scratch.",
+                "Collaborated with teammates, made sprints and participated in meetings.",
+              ]}
+            />
+            <ResumeContent
+              title="Full Stack Developer, Freelance"
+              content={[
+                "Built Back End using NodeJS with Database (Firebase) for mobile.",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
@@ -48,10 +57,15 @@ const Resume = () => {
               content={[]}
             />
             <ResumeContent
-              title="Web Development Online Course"
+              title="Online Courses"
               date="2020"
               content={[
-                "440+ Lectures in Web Development Program by Dr. Yu from London App Brewery.",
+                "440+ Lectures of Web Development at London App Brewery.",
+                "Introduction to Computer Science by Brian Holt.",
+                "Computer Science Harvard Lectures (CS50)",
+                "Data Structures and Algorithms at FrontEnd Masters",
+                "4 Courses on JavaScript 'behind the scenes'",
+                "Node.js by Scott Moss",
               ]}
             />
             <ResumeContent

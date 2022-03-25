@@ -33,12 +33,9 @@ const Home2 = () => {
               <br />
               <br />I also apply my passion for developing products with{" "}
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Frameworks and Libraries
-                </b>
+                <b className="purple"> Modern Javascript</b>
               </i>
-              &nbsp; like
+              &nbsp; using
               <i>
                 <b className="purple"> Node.js, React and Angular.</b>
               </i>

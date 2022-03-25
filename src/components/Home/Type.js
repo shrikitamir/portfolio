@@ -9,8 +9,6 @@ const Type = () => {
           "Programmer",
           "Full-Stack Developer",
           "Coding Enthusiast",
-          "Open Source Contributor",
-          // "Medium Articles Creator",
         ],
         autoStart: true,
         loop: true,
