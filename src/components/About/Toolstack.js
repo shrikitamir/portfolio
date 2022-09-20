@@ -8,6 +8,9 @@ const Toolstack = () => {
         <i className="devicon-visualstudio-plain"></i>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <i class="devicon-webstorm-plain"></i>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <i className="devicon-atom-original"></i>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -26,7 +29,13 @@ const Toolstack = () => {
         <i className="devicon-bitbucket-original"></i>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <i className="devicon-slack-plain"></i>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <i className="devicon-jira-plain"></i>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <i className="devicon-confluence-original"></i>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <i className="devicon-npm-original-wordmark"></i>

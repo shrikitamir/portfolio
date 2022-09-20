@@ -19,51 +19,52 @@ const Resume = () => {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <ResumeContent
-              title="Full Stack Developer at Aura Smart Air"
-              date="October 2021 - Current"
+              title="Full Stack Developer at Dun & Bradstreet"
+              date="May 2022 - Current"
               content={[
-                "Worked on existing backend using Microservices architecture.",
+                "Worked with React (Redux) and NodeJS (NestJS) on robust and complex systems.",
+                "Deployed services to on-premise servers and maintained them using dockers.",
+                "Developed under secure regulations and restrictions.",
+                "Utilized CI/CD (Github Action) workflows.",
+                "Took charge of projects from scratch.",
+                "Experienced Linux OS.",
+              ]}
+            />
+            <ResumeContent
+              title="Full Stack Developer at Aura Smart Air"
+              date="October 2021 - May 2022"
+              content={[
+                "Developed backend utilizing Microservices architecture.",
                 "Worked with Cloud Services - Cloud Functions, Cloud SQL, Big Table, bigQuery, Tasks Queues and Schedulers.",
-                "Took architectural decisions and implemented them.",
-                "Created our backend documentation and changed our Cloud Functions to be written in TypeScript.",
+                "Created the backend documentation and changed the Cloud Functions to be written in TypeScript.",
+                "Built and designed from scratch internal tools using Angular and NodeJS.",
                 "Worked with wide variety of API's, tools and software (IoT).",
-                "Learnt new framework, Developed new tools and landing pages from scratch.",
-                "Collaborated with teammates, made sprints and participated in meetings.",
+                "Took architectural decisions and implemented them.",
               ]}
             />
             <ResumeContent
               title="Full Stack Developer, Freelance"
               content={[
-                "Built Back End using NodeJS with Database (Firebase) for mobile.",
+                "Built Back End from scratch using NodeJS and Firebase (Database) for mobile.",
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
             <ResumeContent
-              title="Books, Articles and Podcasts"
+              title="Engineer Coordinator, Intel"
               content={[
-                "Consistently listening to tech podcasts. Reading tech articles and reading programming books.",
+                "Daily oversight of cross-functional departments requiring constant communication. Utilized ERP Software.",
               ]}
-            />
-            <ResumeContent
-              title="Hackathon - Gaming"
-              content={["Participated in a gaming hackathon in August 21'"]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <ResumeContent
-              title="High School"
-              date="2010 - 2016"
-              content={[]}
-            />
-            <ResumeContent
               title="Online Courses"
               date="2020"
               content={[
-                "440+ Lectures of Web Development at London App Brewery.",
-                "Introduction to Computer Science by Brian Holt.",
                 "Computer Science Harvard Lectures (CS50)",
-                "Data Structures and Algorithms at FrontEnd Masters",
+                "Introduction to Computer Science by Brian Holt.",
+                "Data Structures and Algorithms at 'Frontend Masters'.",
+                "440+ Web Development Lectures at London App Brewery.",
                 "4 Courses on JavaScript 'behind the scenes'",
                 "Node.js by Scott Moss",
               ]}
@@ -82,6 +83,17 @@ const Resume = () => {
                 `London App Brewery - Web Developer`,
                 `Israel Tech Challenge - Full Stack Developer`,
               ]}
+            />
+            <h3 className="resume-title">Extracurricular Activities</h3>
+            <ResumeContent
+              title="Books, Articles and Podcasts"
+              content={[
+                "Consistently listening to tech podcasts. Reading tech articles and reading programming books.",
+              ]}
+            />
+            <ResumeContent
+              title="Hackathon - Gaming"
+              content={["Participated in a gaming hackathon in August 21'"]}
             />
           </Col>
         </Row>

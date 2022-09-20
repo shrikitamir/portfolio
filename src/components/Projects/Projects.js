@@ -81,7 +81,7 @@ const Projects = () => {
               imgPath={stockExchangeImg}
               isBlog={false}
               title="Stock Exchange"
-              description="Stock Exchange app made using Movies API."
+              description="Stock Exchange app made using Stock Market API."
               link="https://github.com/shrikitamir/stockexchange"
             />
           </Col>

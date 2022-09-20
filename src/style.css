@@ -147,6 +147,7 @@ html {
     display: none !important;
   }
 }
+
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
 }
@@ -239,6 +240,7 @@ html {
     transform: rotate(0deg);
   }
 }
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
@@ -404,6 +406,7 @@ html {
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
 }
+
 .footer-copywright {
   text-align: center !important;
 }
@@ -428,6 +431,7 @@ html {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
+
 .footer-icons {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
@@ -437,6 +441,7 @@ html {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -604,6 +609,7 @@ html {
     padding-top: 0 !important;
   }
 }
+
 /* --------- */
 /* Resume */
 /* --------- */
@@ -641,6 +647,7 @@ html {
     padding-left: 15px !important;
   }
 }
+
 .resume .resume-title {
   font-size: 2em;
   font-weight: 700;
@@ -717,6 +724,7 @@ html {
   animation-fill-mode: forwards;
   animation-duration: 0.85s;
 }
+
 @keyframes likeAnimation {
   0% {
     transform: scale(1.5);
@@ -744,6 +752,7 @@ html {
   background-color: #a24dd386 !important;
   border-color: #a24dd386 !important;
 }
+
 .fork-btn-inner::after {
   display: none !important;
 }

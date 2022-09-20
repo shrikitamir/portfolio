@@ -23,7 +23,16 @@ const Techstack = () => {
         <i className="devicon-express-original-wordmark tech-icon-images"></i>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <i className="devicon-nestjs-plain tech-icon-images"></i>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <i className="devicon-docker-plain tech-icon-images"></i>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <i className="devicon-react-original-wordmark tech-icon-images"></i>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <i className="devicon-redux-original tech-icon-images"></i>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <i className="devicon-angularjs-plain tech-icon-images"></i>
@@ -50,13 +59,16 @@ const Techstack = () => {
         <i className="devicon-mongodb-plain tech-icon-images"></i>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <i className="devicon-firebase-plain"></i>
+        <i className="devicon-firebase-plain tech-icon-images"></i>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <i className="devicon-googlecloud-plain"></i>
+        <i className="devicon-googlecloud-plain tech-icon-images"></i>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <i className="devicon-jest-plain tech-icon-images"></i>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <i className="devicon-linux-plain tech-icon-images"></i>
       </Col>
     </Row>
   );

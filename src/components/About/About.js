@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import laptopImg from "../../Assets/about.png";
 import Particle from "../Particle";
-import Github from "./Github";
+// import Github from "./Github";
 import TechStack from "./Techstack";
 import AboutCard from "./AboutCard";
 import ToolsStack from "./Toolstack";
@@ -46,7 +46,7 @@ const About = () => {
 
         <ToolsStack />
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

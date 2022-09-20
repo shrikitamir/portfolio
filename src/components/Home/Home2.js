@@ -23,21 +23,20 @@ const Home2 = () => {
                 <b className="purple"> HTML, CSS and Javascript. </b>
               </i>
               <br />
-              <br />
-              My current focus is on&nbsp;
+              <br />I have experience with&nbsp;
               <i>
-                <b className="purple">Data structures and algorithms. </b> and
-                also in areas related to{" "}
-                <b className="purple">Hardcore Javascript concepts.</b>
+                <b className="purple">React, Angular</b> and also with{" "}
+                <b className="purple">NodeJS.</b>
               </i>
               <br />
-              <br />I also apply my passion for developing products with{" "}
+              <br />
+              The thing that interest me the most is architecture, design,{" "}
               <i>
-                <b className="purple"> Modern Javascript</b>
+                <b className="purple">Back End Development</b>
               </i>
-              &nbsp; using
+              &nbsp; and
               <i>
-                <b className="purple"> Node.js, React and Angular.</b>
+                <b className="purple"> How things work.</b>
               </i>
             </p>
           </Col>
